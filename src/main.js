@@ -6,7 +6,7 @@ import 'element-plus/dist/index.css'
 import router from './router'
 import $ from 'jquery'
 window.$ = $
-// import 'element-plus/theme-chalk/dark/css-vars.css'
+import 'element-plus/theme-chalk/dark/css-vars.css'
 
 const app = createApp(App)
 app.use(ElementPlus)

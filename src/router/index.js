@@ -7,15 +7,15 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/caiZhengZiJinChengJieFenXi'
+      redirect: '/index1'
     },
     {
-      path: '/caiZhengZiJinChengJieFenXi',
+      path: '/index1',
       name: 'caiZhengZiJinChengJieFenXi',
       component: caiZhengZiJinChengJieFenXi
     },
     {
-      path: '/caiZhengYeWuKeHuYingXiaoFenXi',
+      path: '/index2',
       name: 'caiZhengYeWuKeHuYingXiaoFenXi',
       component: caiZhengYeWuKeHuYingXiaoFenXi
     }
